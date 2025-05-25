@@ -1,0 +1,5 @@
+flask
+flask-cors
+openai-whisper
+google-generativeai
+ffmpeg-python
