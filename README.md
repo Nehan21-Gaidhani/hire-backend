@@ -11,5 +11,7 @@
   -Speech to text
 
   -Video to text
+
+  -flask de
   
   
