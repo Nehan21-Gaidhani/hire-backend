@@ -7,5 +7,6 @@
 ##  featuring
 
   -Whisper
-
+  -Speech to text
+  
   
