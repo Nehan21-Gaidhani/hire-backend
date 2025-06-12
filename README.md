@@ -2,4 +2,4 @@
 
   hire-backend 
   
-  -python 
+  -python server
