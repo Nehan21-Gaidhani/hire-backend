@@ -1,0 +1,23 @@
+name: Bulk Commit Creator
+
+on:
+  workflow_dispatch: # Manual trigger from GitHub UI
+
+jobs:
+  spam_commits:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Generate 50 commits
+        run: |
+          git config --global user.email "nehanshugaidhani@gmail.com"
+          git config --global user.name "Nehan21-Gaidhani"
+          for i in {1..50}; do
+            echo "Commit $i - $(date)" >> spam.txt
+            git add spam.txt
+            git commit -m "Auto commit $i"
+          done
+          git push
