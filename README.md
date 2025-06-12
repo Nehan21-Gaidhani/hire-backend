@@ -7,6 +7,9 @@
 ##  featuring
 
   -Whisper
+  
   -Speech to text
+
+  -Video to text
   
   
