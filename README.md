@@ -13,5 +13,7 @@
   -Video to text
 
   -flask deployment
+
+  -docker
   
   
