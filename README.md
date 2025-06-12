@@ -12,6 +12,6 @@
 
   -Video to text
 
-  -flask de
+  -flask deployment
   
   
